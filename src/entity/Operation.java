@@ -18,7 +18,7 @@ public class Operation extends AbstractEntity{
         return res;
     }
 
-    public void setRes(double div) {
+    public void setRes(double res) {
         this.res = res;
     }
 

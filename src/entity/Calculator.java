@@ -16,7 +16,7 @@ public class Calculator {
                 operation.setRes(div(operation.getNum1(), operation.getNum2()));
             }
         }
-        return 0;
+        return operation.getRes();
     }
     private static double sum (double a, double b) {
         return a + b;
